@@ -1,0 +1,40 @@
+#title: Documentation Template
+href: index.yaml
+navigation:
+  logo:
+    url: '../index.html'
+    dark:
+      icon: 'https://www.reshot.com/preview-assets/icons/D2KL6V8YQB/shapes-D2KL6V8YQB.svg'
+      text: 'Your product name'
+    light:
+      icon: 'https://www.reshot.com/preview-assets/icons/D2KL6V8YQB/shapes-D2KL6V8YQB.svg'
+      text: 'Your product name'
+  header:
+    leftItems:
+      - text: 'Telegram'
+        type: 'link'
+        url: 'https://t.me/diplodoc_ru'
+    rightItems:
+      - text: 'Github'
+        type: 'link'
+        url: 'https://github.com/'
+      - type: controls
+items: 
+  - name: Introduction 
+    include:
+      path: introduction/toc.yaml
+      mode: link
+  - name: Getting started 
+    include:
+      path: getting-started/toc.yaml
+      mode: link
+  - name: Known Issues and Solutions 
+    include:
+      path: issues/toc.yaml
+      mode: link
+  - name: Frequently Asked Questions (FAQ)
+    href: faq.md
+  - name: Contact information
+    href: contacts.md
+  - name: Release Notes 
+    href: release-notes.md

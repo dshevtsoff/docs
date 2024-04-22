@@ -1,0 +1,56 @@
+blocks:
+  - type: header-block
+    width: xs
+    offset: default
+    title: Product name
+    resetPaddings: true
+    verticalOffset: l
+    description: Our product is a web-based tool that offers businesses an easier way to coordinate and manage their activities.
+    background:
+      image:
+        src: https://storage.yandexcloud.net/diplodoc-www-assets/pages/how-to-diplodoc/ddos-how-cover.png
+        disableCompress: true
+    imageSize: ''
+  - type: extended-features-block
+    title:
+      text: Key Features
+    colSizes:
+      all: 12
+      xl: 3
+      md: 4
+      sm: 6
+    items:
+      - title: Seamless Collaboration
+        icon: https://storage.yandexcloud.net/cloud-www-assets/pages/how-to-diplodoc/how-to-diplodoc-01.svg
+        text: Our platform enables multiple team members to work together effortlessly, allowing for easy sharing of ideas and resources in one unified workspace.
+      - title: Streamlined Workflow
+        icon: https://storage.yandexcloud.net/cloud-www-assets/pages/how-to-diplodoc/how-to-diplodoc-02.svg
+        text: With our tool, manage and organize your tasks more efficiently, helping you prioritize work and achieve maximum productivity.
+      - title: Real-Time Reports
+        icon: https://storage.yandexcloud.net/cloud-www-assets/pages/how-to-diplodoc/how-to-diplodoc-03.svg
+        text: Stay informed and make data-driven decisions with our real-time reporting feature that delivers up-to-date insights and analytics.
+      - title: Transparent Communication
+        icon: https://storage.yandexcloud.net/cloud-www-assets/pages/how-to-diplodoc/how-to-diplodoc-04.svg
+        text: Enhance team communication with a system that ensures everyone stays on the same page, fostering a transparent and inclusive working environment.
+  - type: card-layout-block
+    title: Product Overview
+    children:
+      - type: layout-item
+        content:
+          title: What It Is
+          text: Our product is a web-based tool that offers businesses an easier way to coordinate and manage their activities. Whether your team is small or large, located in the same office or spread around the globe, our product is designed to bring everyone onto the same page.
+        media:
+          image: https://storage.yandexcloud.net/diplodoc-www-assets/pages/how-to-diplodoc/ddos-how-item-02-01.png
+      - type: layout-item
+        content:
+          title: Who It's For
+          text: Our product is perfect for businesses of any size - from start-ups to multinational corporations. This tool is used by teams looking for a solution to streamline their processes, track progress, and improve collaboration. It's ideal for project managers, operational leads, and individual contributors alike.
+        media:
+          image: https://storage.yandexcloud.net/diplodoc-www-assets/pages/how-to-diplodoc/ddos-how-item-02-02.png
+      - type: layout-item
+        content:
+          title: What It Does
+          text: From simplifying task assignment to managing complex projects, our product offers a comprehensive solution for all your team management needs. Track your tasks, communicate with your team, and keep your projects on schedule, all in one place.
+        media:
+          image: https://storage.yandexcloud.net/diplodoc-www-assets/pages/how-to-diplodoc/ddos-how-item-02-03.png
+animated: false

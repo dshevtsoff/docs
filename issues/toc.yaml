@@ -1,0 +1,9 @@
+title: Known Issues and Solutions 
+#href: index.yaml
+items:
+  - name: Troubleshooting guide
+    href: troubleshooting.md
+  - name: Reporting new issues
+    href: bug-report.md
+  - name: Requesting features
+    href: feature-request.md
